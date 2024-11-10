@@ -1,0 +1,33 @@
+body {
+text-align: center; /*Alineamos el texto hacia el centro para centrarlo bien todo*/
+margin: 0; /*Reiniciamos el margin por defecto */
+padding: 0; /*Reiniciamos el padding por defecto*/
+align-items: center; /*Alineamos todo al centro*/
+}
+
+#calculadora {
+    position: relative; /*Establecemos una posición relativa*/
+    height: 450px; /*Establecemos la altura de nuestra calculadora*/
+    width: 500px; /*Ponemos el ancho de la calculaora*/
+    left: 500px; /*La movemos hacia el medio*/
+    background-color: gray; /*Ponemos el fondo de color gris*/
+    border: solid black; /*border solio negro*/
+}
+
+#pantalla {
+
+    height: 100px; /*La altura de la pantallita pequeña de nuestra calculadora*/
+    width: 480px; /*El ancho de la misma*/
+    background-color: rgb(157, 216, 243); /*Le ponemos un tono azul a la pantalla*/
+    margin: 10px; /*y establecemos un margin para que la pantalla se vea con un borde*/
+}
+
+#teclado div div {
+    position: relative; /*Nuevamente establecemos una posición relativa*/
+    width: 15%; /*Cada botón de la calculadora ocupa un 15% del ancho*/
+    float: left; /*Hacemos que los botones se ordenen uno al lado del otro*/
+    border: solid black; /*Añadiremos un borde negro*/
+    padding: 20px; /*Y pondremos un padding de 20px*/
+    font-size: 30px; /*El tamaño de la fuente sera de 30px*/
+    left: 10px; /*Movemos nuestros botones 10px hacia la derecha para que se vea centrado*/
+}
